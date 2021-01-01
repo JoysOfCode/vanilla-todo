@@ -63,6 +63,8 @@ function updateUI() {
       labelEl.style.display = 'inline'
       inputEl.style.display = 'none'
 
+      inputEl.value = ''
+
       const updatedTodos = updateTodo(todoId, inputEl.value)
       todos = updatedTodos
     }
